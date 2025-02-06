@@ -1,0 +1,47 @@
+body,
+html {
+  background: slategray;
+  text-align: center;
+}
+
+.hiddenWord {
+  margin: 30px 0;
+  font-size: 3em;
+  color: brown;
+  letter-spacing: 10px;
+}
+
+button {
+  color: white;
+  background: none;
+  border: 2px solid;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+button:hover,
+button:focus {
+  border-color: black;
+}
+
+button[disabled] {
+  opacity: 0.3;
+  animation: none;
+  border-color: inherit;
+  cursor: not-allow ed;
+}
+.hangmanGraphic svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30vw;
+  height: 40vh;
+  transform: translate(-50%, -50%);
+}
+.hangmanGraphic line,
+.hangmanGraphic circle {
+  stroke: white;
+  stroke-width: 4;
+  fill: none;
+}
