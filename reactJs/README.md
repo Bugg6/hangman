@@ -15,11 +15,11 @@ A simple React-based Hangman game where players guess letters to uncover a hidde
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Bugg6/hangman-game.git
+   git clone https://github.com/Bugg6/hangman.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd hangman-game
+   cd reactJs
    ```
 3. Install dependencies:
    ```sh
